@@ -13,6 +13,10 @@
 		966F68BE28B9134200AE88C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F68BC28B9134200AE88C9 /* Main.storyboard */; };
 		966F68C028B9134800AE88C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966F68BF28B9134800AE88C9 /* Assets.xcassets */; };
 		966F68C328B9134800AE88C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 966F68C128B9134800AE88C9 /* LaunchScreen.storyboard */; };
+		966F68CC28B9140300AE88C9 /* suiheiki.png in Resources */ = {isa = PBXBuildFile; fileRef = 966F68CA28B9140200AE88C9 /* suiheiki.png */; };
+		966F68CD28B9140300AE88C9 /* awa.png in Resources */ = {isa = PBXBuildFile; fileRef = 966F68CB28B9140300AE88C9 /* awa.png */; };
+		966F68CF28B9157D00AE88C9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F68CE28B9157D00AE88C9 /* GameViewController.swift */; };
+		966F68D128B9158E00AE88C9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966F68D028B9158E00AE88C9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		966F68BF28B9134800AE88C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966F68C228B9134800AE88C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966F68C428B9134800AE88C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966F68CA28B9140200AE88C9 /* suiheiki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suiheiki.png; sourceTree = "<group>"; };
+		966F68CB28B9140300AE88C9 /* awa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awa.png; sourceTree = "<group>"; };
+		966F68CE28B9157D00AE88C9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		966F68D028B9158E00AE88C9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,8 @@
 		966F68B528B9134200AE88C9 /* Acceleromator */ = {
 			isa = PBXGroup;
 			children = (
+				966F68CB28B9140300AE88C9 /* awa.png */,
+				966F68CA28B9140200AE88C9 /* suiheiki.png */,
 				966F68B628B9134200AE88C9 /* AppDelegate.swift */,
 				966F68B828B9134200AE88C9 /* SceneDelegate.swift */,
 				966F68BA28B9134200AE88C9 /* ViewController.swift */,
@@ -63,6 +73,8 @@
 				966F68BF28B9134800AE88C9 /* Assets.xcassets */,
 				966F68C128B9134800AE88C9 /* LaunchScreen.storyboard */,
 				966F68C428B9134800AE88C9 /* Info.plist */,
+				966F68CE28B9157D00AE88C9 /* GameViewController.swift */,
+				966F68D028B9158E00AE88C9 /* ResultViewController.swift */,
 			);
 			path = Acceleromator;
 			sourceTree = "<group>";
@@ -127,6 +139,8 @@
 			files = (
 				966F68C328B9134800AE88C9 /* LaunchScreen.storyboard in Resources */,
 				966F68C028B9134800AE88C9 /* Assets.xcassets in Resources */,
+				966F68CC28B9140300AE88C9 /* suiheiki.png in Resources */,
+				966F68CD28B9140300AE88C9 /* awa.png in Resources */,
 				966F68BE28B9134200AE88C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966F68D128B9158E00AE88C9 /* ResultViewController.swift in Sources */,
+				966F68CF28B9157D00AE88C9 /* GameViewController.swift in Sources */,
 				966F68BB28B9134200AE88C9 /* ViewController.swift in Sources */,
 				966F68B728B9134200AE88C9 /* AppDelegate.swift in Sources */,
 				966F68B928B9134200AE88C9 /* SceneDelegate.swift in Sources */,
@@ -287,11 +303,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW8PPKGWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Acceleromator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -314,11 +332,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PXW8PPKGWF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Acceleromator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
